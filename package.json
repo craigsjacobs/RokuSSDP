@@ -1,0 +1,16 @@
+{
+  "name": "roku-emulator-for-Harmony",
+  "version": "1.0.0",
+  "description": "Makes your system look like a roku on the network.  Used to trick harmony into sending network commands and creating a system controller",
+  "main": "roku-emulator-for-Harmony.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Craig Jacobs",
+  "license": "MIT",
+    "node-red" : {
+    "nodes": {
+    "roku-emulator-for-Harmony": "roku-emulator-for-Harmony.js"
+    }
+    }
+}

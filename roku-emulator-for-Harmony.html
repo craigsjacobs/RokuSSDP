@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('roku-emulator-for-Harmony',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"roku-emulator-for-Harmony";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="roku-emulator-for-Harmony">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="roku-emulator-for-Harmony">
+    <p>A Module that implements SSDP for a phantom Roku Box</p>
+</script>
